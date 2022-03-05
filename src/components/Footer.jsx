@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="text-center p-10 mt-10 border-t dark:border-gray-700 border-gray-200">
-      <h1>2021 BROSearch, Inc.</h1>
+    // centers text, padding of 2.5rem, top margin of 2.5rem
+    <div className="p-10 mt-10 text-center border-t border-gray-200 dark:border-gray-700">
+      <h1>2021 GoogleSearch, Inc.</h1>
     </div>
   );
-}
+};
